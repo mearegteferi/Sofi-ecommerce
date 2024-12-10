@@ -32,7 +32,7 @@ function About() {
         {slides.map((slide, index) => (
           <div className="min-w-full flex flex-col lg:flex-row lg:gap-8 gap-6" key={index}>
             {/* Image Section */}
-            <div className="lg:w-3/5 w-full">
+            <div className="lg:w-3/6 w-full">
               <img
                 className="w-full h-full object-cover rounded-md"
                 src={slide.image}
